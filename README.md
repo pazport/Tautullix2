@@ -9,7 +9,7 @@ Due to the volume of changes and my lack of understanding of creating smaller co
 ##### As such, this is an unofficial fork and is not supported by the original support channels for Tautulli.
 ##### If you are upgrading an official Tautulli instance, please be sure to back up your config.ini and tautulli.db. This upgrade will irreversibly migrate your database to the new format required for this fork. 
 
-If you experience any issues, please open an issue request on [this](https://github.com/zSeriesGuy/Tautulli/issues) repo.
+If you experience any issues, please open an issue request on [this](https://github.com/pazport/Tautullix2/issues) repo.
 
 ### Features
 - Supports multiple Plex.TV accounts and PMS servers.
@@ -26,6 +26,6 @@ If you experience any issues, please open an issue request on [this](https://git
 - Replaced all shipped python packages with the use of python virtual environments and a requirements.txt.
 
 ## Installation and Support
-* Read the [Installation Guides](https://github.com/zSeriesGuy/Tautulli/wiki/Installation) for instructions to install Tautulli.
-* Support is available on [this repo](https://github.com/zSeriesGuy/Tautulli/issues) only for this fork of Tautulli.
+* Read the [Installation Guides](https://github.com/pazport/Tautullix2/wiki/Installation) for instructions to install Tautulli.
+* Support is available on [this repo](https://github.com/pazport/Tautullix2/issues) only for this fork of Tautulli.
  

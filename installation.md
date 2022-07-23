@@ -15,7 +15,7 @@
 * Install the latest version of [Python 3](https://www.python.org/downloads/windows/). Download the Windows x86-64 MSI installer and complete the installation with all the default options.
 
 * Method 1 (easy):
-    - Download Tautulli from GitHub: <https://github.com/zSeriesGuy/Tautulli/zipball/master>
+    - Download Tautulli from GitHub: <https://github.com/pazport/Tautullix2/zipball/main>
     - Extract the ZIP file.
     - Open a command window.
     - CD to where you extracted the Tautulli ZIP file (e.g. `cd C:\Tautulli`).
@@ -35,7 +35,7 @@
     - Complete the rest of the installation with the default options.
     - Right click on your desktop and select "Git Gui".
     - Select "Clone Existing Repository".
-    - In the "Source Location" enter: `https://github.com/zSeriesGuy/Tautulli.git`
+    - In the "Source Location" enter: `https://github.com/pazport/Tautullix2.git`
     - In the "Target Directory" enter a new folder where you want to install Tautulli to (e.g. `C:\Tautulli`).
     - Click "Clone".
     - When it's finished a Git Gui windows will appear, just close this Window.
@@ -58,7 +58,7 @@ Tautulli will be installed to `/Applications/Tautulli`.
 * Install prerequisites:
     - `sudo apt-get install python3 python3-venv python3-all-dev`
 * Type: `cd /Applications`
-* Type: `git clone https://github.com/zSeriesGuy/Tautulli.git`
+* Type: `git clone https://github.com/pazport/Tautullix2.git`
 * Type: `cd Tautulli`
 * Type: `python3 -m venv /Applications/Tautulli`
 * Type: `source /opt/Tautulli/bin/activate`
@@ -77,7 +77,7 @@ Tautulli will be installed to `/opt/Tautulli`.
 * Install prerequisites:
     - `sudo apt-get install python3 python3-venv python3-all-dev`
 * Type: `cd /opt`
-* Type: `sudo git clone https://github.com/zSeriesGuy/Tautulli.git`
+* Type: `sudo git clone https://github.com/pazport/Tautullix2.git`
 * Optional:  
     - Ubuntu/Debian: `sudo addgroup tautulli && sudo adduser --system --no-create-home tautulli --ingroup tautulli`
     - `sudo chown tautulli:tautulli -R /opt/Tautulli`
