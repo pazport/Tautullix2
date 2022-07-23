@@ -97,7 +97,7 @@
     * `sudo apt-get install python3 python3-venv python3-all-dev`
 * Linux Install:
     * Type: `cd /opt`
-    * Type: `sudo git clone https://github.com/pazport/Tautullix2.git`
+    * Type: `sudo git clone https://github.com/pazport/Tautullix2.git /tautlli`
     * Type: `cd Tautulli`
     * Type: `git checkout V4.0.00`
     * Type: `python3 -m venv /opt/Tautulli`
