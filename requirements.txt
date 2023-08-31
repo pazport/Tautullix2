@@ -20,7 +20,7 @@ bleach==4.1.0
     # via -r requirements.in
 bs4==0.0.1
     # via -r requirements.in
-certifi==2021.10.8
+certifi==2023.7.22
     # via
     #   cloudinary
     #   requests
@@ -38,8 +38,6 @@ click==8.0.3
     # via pip-tools
 cloudinary==1.26.0
     # via -r requirements.in
-colorama==0.4.4
-    # via click
 configobj==5.0.6
     # via -r requirements.in
 cryptography==3.4.8
@@ -64,27 +62,21 @@ idna==3.3
     # via
     #   requests
     #   yarl
-importlib-metadata==4.8.1
-    # via
-    #   click
-    #   pep517
-infi.systray==0.1.12 ; sys_platform == "win32"
-    # via -r requirements.in
 ipwhois==1.2.0
     # via -r requirements.in
 ipy==1.1
     # via -r requirements.in
-jaraco.classes==3.2.1
-    # via jaraco.collections
-jaraco.collections==3.4.0
+jaraco-classes==3.2.1
+    # via jaraco-collections
+jaraco-collections==3.4.0
     # via cherrypy
-jaraco.functools==3.3.0
+jaraco-functools==3.3.0
     # via
     #   cheroot
-    #   jaraco.text
+    #   jaraco-text
     #   tempora
-jaraco.text==3.5.1
-    # via jaraco.collections
+jaraco-text==3.5.1
+    # via jaraco-collections
 logutils==0.3.5
     # via -r requirements.in
 mako==1.1.5
@@ -99,8 +91,8 @@ more-itertools==8.10.0
     # via
     #   cheroot
     #   cherrypy
-    #   jaraco.classes
-    #   jaraco.functools
+    #   jaraco-classes
+    #   jaraco-functools
 multidict==5.2.0
     # via
     #   aiohttp
@@ -144,10 +136,6 @@ pytz==2021.3
     #   apscheduler
     #   tempora
     #   tzlocal
-pywin32==302 ; sys_platform == "win32"
-    # via
-    #   -r requirements.in
-    #   cherrypy
 requests==2.26.0
     # via
     #   -r requirements.in
@@ -175,11 +163,7 @@ tempora==4.1.2
 tomli==1.2.1
     # via pep517
 typing-extensions==3.10.0.2
-    # via
-    #   aiohttp
-    #   arrow
-    #   importlib-metadata
-    #   yarl
+    # via aiohttp
 tzlocal==2.1
     # via
     #   -r requirements.in
@@ -200,12 +184,8 @@ xmltodict==0.12.0
     # via -r requirements.in
 yarl==1.7.0
     # via aiohttp
-zc.lockfile==2.0
+zc-lockfile==2.0
     # via cherrypy
-zipp==3.6.0
-    # via
-    #   importlib-metadata
-    #   pep517
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
